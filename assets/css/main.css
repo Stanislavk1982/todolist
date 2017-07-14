@@ -1,0 +1,11 @@
+.strike {
+    text-decoration: line-through;
+}
+
+.inoneline {
+    display: table;
+}
+
+.rowdiv {
+    display: table-cell
+}

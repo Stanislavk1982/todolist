@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+</head>
+<body>
+<!--<input type="text" id="inputbox" value="2234">
+<input type="button" value="Add" id="bottonadd">
+<div id="outputbox">
+</div>-->
+<div class="container">
+    <form class="row">
+        <div class="col-md-5">
+            <input type="text" class="form-control" id="task"/>
+        </div>
+        <div class="col-md-2">
+            <input type="button" class="btn btn-success" value="Add" id="addTask"/>
+        </div>
+    </form>
+
+    <div id="taskContainer"></div>
+</div>
+
+<div class="modal fade" id="modalshow1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Message from serverr</h4>
+            </div>
+            <div class="modal-body">
+                <p1 id="showinfo1"></p1>
+            </div>
+            <div class="modal-footer">
+                <button id="btnConfirmDelete" type="button" class="btn btn-primary" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/connect.js"></script>
+<script type="text/javascript" src="assets/js/data.js"></script>
+<script type="text/javascript" src="assets/js/list.js"></script>
+<script type="text/javascript" src="assets/js/inputdata.js"></script>
+<script type="text/javascript" src="assets/js/function.js"></script>
+<script type="text/javascript" src="assets/js/task1.js"></script>
+<script type="text/javascript" src="assets/js/connect.js"></script>
+</body>
+</html>
